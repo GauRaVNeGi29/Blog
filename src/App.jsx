@@ -5,7 +5,7 @@ import store from "./store/store";
 import { Toaster } from "react-hot-toast";
 
 // Layout
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
 import SearchBar from "./components/SearchBar";
 import HomeLayout from "./components/HomeLayout";
