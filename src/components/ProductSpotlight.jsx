@@ -116,20 +116,20 @@ const ProductSpotlight = () => {
         {/* Small Blog 2 (3 cols × 1 row, new) */}
         <div className="col-span-1 md:col-span-3 row-span-1 grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
           <img
-            onClick={() => goToBlog('product-spotlight','sustainability-strategies-for-setustore')}
+            onClick={() => goToBlog('lifestyle-culture','sustainability-strategies-for-setustore')}
             src="/images/sustainability-strategies-for-setustore-thumb.jpg"
             alt="new-blog"
             className="w-full h-[280px] md:h-full object-cover cursor-pointer"
           />
           <div className="flex flex-col justify-center">
             <p className="uppercase text-xs font-semibold text-black mb-2">
-              <Link to="/product-spotlight">
+              <Link to="/lifestyle-culture">
               <span className="inline-block border-t-2 border-[#00d084] pt-1 cursor-pointer hover:text-[#00d084] transition-colors duration-400 ease-in-out">
                 PRODUCT
               </span>
             </Link>
             </p>
-            <h3 onClick={() => goToBlog('product-spotlight','sustainability-strategies-for-setustore')} className="text-lg font-semibold cursor-pointer hover:text-[#00d084] transition-colors duration-400 ease-in-out">
+            <h3 onClick={() => goToBlog('lifestyle-culture','sustainability-strategies-for-setustore')} className="text-lg font-semibold cursor-pointer hover:text-[#00d084] transition-colors duration-400 ease-in-out">
                Sustainability Strategies for SetuStore: Advancing Eco-Friendly Practices in Vendor-to-Customer Ecommerce 
             </h3>
             <p className="font-quick text-sm text-black">
