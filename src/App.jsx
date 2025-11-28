@@ -12,7 +12,7 @@ import HomeLayout from "./components/HomeLayout";
 import ScrollToTop from "./components/ScrollToTop";
 
 // Pages
-import HomePage from "./pages/HomePage";
+import HomePage from "./pages/Homepage";
 import BlogPage from "./pages/BlogPage";
 import CategoryPage from "./pages/CategoryPage";
 import SearchPage from "./pages/SearchPage";
