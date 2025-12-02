@@ -9,7 +9,7 @@ import FromCraftTableToCart from "../content/blogs/FromCraftTableToCart";
 import TheWorldIsYourMarketplace from "../content/blogs/TheWorldIsYourMarketplace";
 import EcommerceOnlineShoppingOnSetuStore from "../content/blogs/EcommerceOnlineShoppingOnSetuStore";
 import FromCartToDoorstep from "../content/blogs/FromCartToDoorstep";
-import SustainabilityStrategiesForSetuStore from "../content/blogs/SustainabilityStrategiesForSetuStore";
+import SustainabilityStrategiesForSetuStore from "../content/blogs/SustainabilityStrategiesForSetustore";
 
 // Retailers Playbook Components
 import GuideToSourcingAuthenticIndianProducts from "@/content/blogs/RetailersPlaybook.jsx/GuideToSourcingAuthenticIndianProducts";
