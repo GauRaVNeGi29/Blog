@@ -25,14 +25,14 @@ sitemap.pipe(writeStream);
 // Add category and blog URLs
 categories.forEach((category) => {
   sitemap.write({
-    url: `/category/${category.slug}`,
+    url: `/${category.slug}`,
     changefreq: 'weekly',
     priority: 0.7,
   });
 
   category.blogs.forEach((blog) => {
     sitemap.write({
-      url: `/blog/${blog.slug}`,
+      url: `/${category.slug}/${blog.slug}`,
       changefreq: 'daily',
       priority: 0.8,
     });
