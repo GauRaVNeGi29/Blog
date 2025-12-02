@@ -27,5 +27,8 @@ export default defineConfig({
   },
   preview: {
     historyApiFallback: true,
+    host: "0.0.0.0",
+    allowedHosts: ["setu-store-blog.onrender.com"],
+    port: 4173
   },
 })
