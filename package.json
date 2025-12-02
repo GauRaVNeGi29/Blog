@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "generate-sitemap": "node generate-sitemap.js",
-    "postbuild": "npm run generate-sitemap"
+    "postbuild": "npm run generate-sitemap",
+    "start": "vite preview --host 0.0.0.0 --port $PORT"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
